@@ -1,4 +1,4 @@
-const sleak_htmlUrl = 'https://95c4299bd7e6e57cacd63bc0daa40451.cdn.bubble.io/f1683555697191x714149577677779600/sleakbotv4-1.html';
+const sleak_htmlUrl = 'https://raw.githubusercontent.com/sleakchat/Sleak-repository/main/SLEAKV2.1DEBUG.html';
 const sleak_jsUrl = 'https://95c4299bd7e6e57cacd63bc0daa40451.cdn.bubble.io/f1683556448497x628504290522213400/sleakbotv4-1.js';
 
 fetch(sleak_htmlUrl)
