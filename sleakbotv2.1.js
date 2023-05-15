@@ -15,7 +15,7 @@ sleakButtonWrap.style.transition = 'opacity 0.2s ease'; // Add transition effect
 // Delay setting the opacity to 1 to trigger the fade-in effect
 setTimeout(function() {
   sleakButtonWrap.style.opacity = '1';
-}, 50);
+}, 500);
 
 
 
