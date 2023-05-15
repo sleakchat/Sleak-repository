@@ -10,14 +10,12 @@ var sleakBtnContainer = document.querySelector('#sleak-btn-container');
 var btnColor = getClientId().btnColor;
 var sleakButtonWrap = document.querySelector('#sleak-buttonwrap');
 sleakBtnContainer.style.backgroundColor = btnColor;
-sleakButtonWrap.style.transition = 'visibility 0.2s ease'; // Add transition effect
+sleakButtonWrap.style.transition = 'display 0.2s ease'; // Add transition effect
 
 // Delay setting the opacity to 1 to trigger the fade-in effect
 setTimeout(function() {
-  sleakButtonWrap.style.visibility = 'block';
-}, 5000);
-
-
+  sleakButtonWrap.style.display = 'block';
+}, 500);
 
 function generateUniqueId() {
   var visitorId = localStorage.getItem('visitorId');
