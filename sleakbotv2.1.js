@@ -10,7 +10,6 @@ var sleakBtnContainer = document.querySelector('#sleak-btn-container');
 var btnColor = getClientId().btnColor;
 var sleakButtonWrap = document.querySelector('#sleak-buttonwrap');
 sleakBtnContainer.style.backgroundColor = btnColor;
-sleakButtonWrap.style.opacity = '0'; // Set initial opacity to 0
 sleakButtonWrap.style.transition = 'opacity 0.2s ease'; // Add transition effect
 
 // Delay setting the opacity to 1 to trigger the fade-in effect
