@@ -1,5 +1,5 @@
-const sleak_htmlUrl = 'https://cdn.jsdelivr.net/gh/sleakchat/Sleak-repository@main/sleakbot2.1.html?v-1.0';
-const sleak_jsUrl = 'https://cdn.jsdelivr.net/gh/sleakchat/Sleak-repository@main/sleakbotv2.1.js?v-1.0';
+const sleak_htmlUrl = 'https://cdn.jsdelivr.net/gh/sleakchat/Sleak-repository@main/sleakbot2.1.html';
+const sleak_jsUrl = 'https://cdn.jsdelivr.net/gh/sleakchat/Sleak-repository@main/sleakbotv2.1.js';
 
 fetch(sleak_htmlUrl)
   .then(sleak_response => sleak_response.text())

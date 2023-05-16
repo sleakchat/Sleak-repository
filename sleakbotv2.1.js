@@ -18,7 +18,6 @@ setTimeout(function() {
   sleakButtonWrap.style.opacity = '1';
 }, 500);
 
-
 function generateUniqueId() {
   var visitorId = localStorage.getItem('visitorId');
   if (!visitorId) {
@@ -35,7 +34,6 @@ var visitorId = generateUniqueId();
 iframe.src = `https://app.sleak.chat/?id=${clientId}&visitorId=${visitorId}`;
 iframe2.src = `https://app.sleak.chat/popup/?id=${clientId}&visitorId=${visitorId}`;
 
-
 // Change element visibility on button click
   // Get references to the elements
   const sleakClosedWidget = document.querySelector('#sleak-widget-closed');
@@ -44,9 +42,6 @@ iframe2.src = `https://app.sleak.chat/popup/?id=${clientId}&visitorId=${visitorI
   const sleakBgOverlay = document.querySelector('#sleak-bgoverlay');
   const sleakEmbeddedPopup = document.querySelector('#sleak-popup-embed');
   const sleakNotification = document.querySelector('#sleak-btn-notification');
-
-  
-
 
   // Add a click event listener to the closed widget
   sleakClosedWidget.addEventListener('click', function() {
@@ -127,7 +122,6 @@ iframe2.src = `https://app.sleak.chat/popup/?id=${clientId}&visitorId=${visitorI
     }
   }, 6000);
 };
-
 
     // script for showing and hiding background overlay on mobile
     var sleakWidgetOpened = document.getElementById("sleak-widget-open");
